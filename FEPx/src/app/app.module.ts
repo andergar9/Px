@@ -4,14 +4,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { ListComenComponent } from './components/list-comen/list-comen.component';
+import { ViverosComponent } from './viveros/viveros.component';
+import { HomeComponent } from './home/home.component';
+import { ProductoresComponent } from './productores/productores.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    ListComenComponent,
+    ViverosComponent,
+    HomeComponent,
+    ProductoresComponent,
   ],
   imports: [
     BrowserModule,

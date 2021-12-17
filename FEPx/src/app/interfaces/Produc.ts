@@ -1,4 +1,4 @@
-export interface Comen{
+export interface Produc{
     cedula: string;
     nombre: string;
     apellido: string;
